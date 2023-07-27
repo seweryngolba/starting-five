@@ -107,6 +107,7 @@ body {
   color: white;
   font-size: 16px;
   font-weight: bold;
+  border-radius: 10px;
 }
 
 .player-selection {
@@ -120,7 +121,47 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    width: 650px;
+  }
+  .app-title {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+  .selection {
+    font-size: 18px;
+    width: 300px;
+    height: 40px;
+  }
+  .all-jerseys {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 40px;
+  }
+  .last-button {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .container {
+    width: 980px;
+    justify-content: center;
+  }
+  .app-title {
+    font-size: 54px;
+    margin-top: 30px;
+  }
+  .selection {
+    font-size: 24px;
+    width: 450px;
+    height: 46px;
+  }
+  .all-jerseys {
+    width: 800px;
+  }
 }
