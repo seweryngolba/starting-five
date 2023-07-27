@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: rgb(247, 231, 213);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.jersey-style {
+  fill: darkolivegreen;
+}
+
+.jersey-icon {
+  width: 120px;
+  height: 290px;
+}
+
+.container {
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.app-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.user-selection {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selection {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 260px;
+  height: 30px;
+  padding-left: 10px;
+  background: burlywood;
+}
+
+.player-container {
+  position: relative;
+}
+
+.player-position {
+  position: absolute;
+  bottom: 30px;
+  right: -18px;
+  width: 40px;
+  height: 40px;
+  background: orangered;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.player-name {
+  width: 110px;
+  text-align: center;
+  position: absolute;
+  top: 38%;
+  left: 5%;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.player-number {
+  width: 60px;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+}
+
+.player-button {
+  width: 100px;
+  height: 34px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.player-selection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.last-button {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
