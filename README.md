@@ -5,6 +5,7 @@ This is a simple web application that allows you to randomly select players for 
 ## Table of Contents
 
 - [How to Use](#how-to-use)
+- [Demo](#demo)
 - [Customization](#customization)
 - [Responsive Design](#responsive-design)
 - [Getting Started](#getting-started)
@@ -19,6 +20,10 @@ This is a simple web application that allows you to randomly select players for 
 6. The selected player's name, jersey number, and a jersey icon with the player's last name initial will be displayed on the screen.
 7. The jersey icon will be colored according to the player's team color, and the jersey number will have a color corresponding to the player's number color.
 8. Repeat the process for other positions to complete the starting lineup.
+
+## Demo
+
+Check out the live demo of the application: [Basketball Starting 5 Demo](https://starting-five-s-golba.netlify.app/)
 
 ## Customization
 
